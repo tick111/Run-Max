@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Assesment",
-    "\\Assesment\\Assesment"
+    "\\Assesment\\bin",
+    "\\Assesment\\bin\\Release",
+    "\\Assesment\\obj",
+    "\\Assesment\\obj\\Release",
+    "\\Assesment\\obj\\Release\\net8.0",
+    "\\Assesment\\obj\\Release\\net8.0\\ref",
+    "\\Assesment\\obj\\Release\\net8.0\\refint"
   ],
-  "SelectedNode": "\\Assesment\\Assesment\\bin",
   "PreviewInSolutionExplorer": false
 }
