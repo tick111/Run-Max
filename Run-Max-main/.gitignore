@@ -1,1 +1,11 @@
 .vs/
+AppData/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+*.blf
+*.regtrans-ms
+*.LOG*
