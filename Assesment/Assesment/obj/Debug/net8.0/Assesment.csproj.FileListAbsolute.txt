@@ -32,8 +32,9 @@ C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Deb
 C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Debug\net8.0\Assesment.pdb
 C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Debug\net8.0\Assesment.genruntimeconfig.cache
 C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Debug\net8.0\ref\Assesment.dll
-C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\appsettings.json
+C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment\appsettings.Development.json
+C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment\appsettings.json
+C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment\Properties\launchSettings.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment.staticwebassets.runtime.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment.staticwebassets.endpoints.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment.exe
@@ -53,7 +54,7 @@ C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\A
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\scopedcss\Assesment\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\scopedcss\bundle\Assesment.styles.css
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\scopedcss\projectbundle\Assesment.bundle.scp.css
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\staticwebassets.build.json

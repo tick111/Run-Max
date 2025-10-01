@@ -3,60 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|c:\\users\\longjie.luo\\source\\repos\\run-max\\assesment\\assesment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|solutionrelative:assesment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Leaderboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Leaderboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Leaderboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Leaderboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\LeaderboardModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaderboardModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|c:\\users\\longjie.luo\\source\\repos\\run-max\\assesment\\assesment\\models\\leaderboardentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|solutionrelative:assesment\\models\\leaderboardentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\RunMax\\Services\\LeaderboardService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RunMax\\Services\\LeaderboardService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\Index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|c:\\users\\longjie.luo\\source\\repos\\run-max\\assesment\\assesment\\services\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|solutionrelative:assesment\\services\\leaderboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|c:\\users\\longjie.luo\\source\\repos\\run-max\\assesment\\assesment\\services\\rankedskiplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|solutionrelative:assesment\\services\\rankedskiplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\RunMax\\Services\\RankedSkipList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RunMax\\Services\\RankedSkipList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|c:\\users\\longjie.luo\\source\\repos\\run-max\\assesment\\assesment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{778249E3-87E9-4840-A6C9-E0FBDC341F02}|Assesment\\Assesment.csproj|solutionrelative:assesment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Longjie.Luo\\AppData\\Local\\Temp\\2f35584d-7e06-49dc-be8b-3afc7fb19a4d_Assesment1.zip.a4d\\Assesment\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,185 +21,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Leaderboard.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Leaderboard.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Leaderboard.cshtml.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Leaderboard.cshtml.cs",
-              "RelativeToolTip": "Pages\\Leaderboard.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:21:55.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LeaderboardModel.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\LeaderboardModel.cs",
-              "RelativeDocumentMoniker": "LeaderboardModel.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\LeaderboardModel.cs",
-              "RelativeToolTip": "LeaderboardModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:21:58.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T22:41:57.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Leaderboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Leaderboard.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Leaderboard.cshtml",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Leaderboard.cshtml",
-              "RelativeToolTip": "Pages\\Leaderboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T22:22:07.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Program.cs",
-              "RelativeDocumentMoniker": "Assesment\\Program.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Program.cs*",
-              "RelativeToolTip": "Assesment\\Program.cs*",
-              "ViewState": "AgIAACwAAAAAAAAAAAAYwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:26:44.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LeaderboardEntryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Models\\LeaderboardEntryDto.cs",
-              "RelativeDocumentMoniker": "Assesment\\Models\\LeaderboardEntryDto.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Models\\LeaderboardEntryDto.cs",
-              "RelativeToolTip": "Assesment\\Models\\LeaderboardEntryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:34:13.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T22:41:48.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LeaderboardService.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\RunMax\\Services\\LeaderboardService.cs",
-              "RelativeDocumentMoniker": "RunMax\\Services\\LeaderboardService.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\RunMax\\Services\\LeaderboardService.cs",
-              "RelativeToolTip": "RunMax\\Services\\LeaderboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:29:11.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:47:13.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LeaderboardService.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Services\\LeaderboardService.cs",
-              "RelativeDocumentMoniker": "Assesment\\Services\\LeaderboardService.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Services\\LeaderboardService.cs",
-              "RelativeToolTip": "Assesment\\Services\\LeaderboardService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAlwC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:34:07.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RankedSkipList.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Services\\RankedSkipList.cs",
-              "RelativeDocumentMoniker": "Assesment\\Services\\RankedSkipList.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\Services\\RankedSkipList.cs",
-              "RelativeToolTip": "Assesment\\Services\\RankedSkipList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:34:19.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-30T22:29:54.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RankedSkipList.cs",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\RunMax\\Services\\RankedSkipList.cs",
-              "RelativeDocumentMoniker": "RunMax\\Services\\RankedSkipList.cs",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\RunMax\\Services\\RankedSkipList.cs",
-              "RelativeToolTip": "RunMax\\Services\\RankedSkipList.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:29:29.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\appsettings.json",
-              "RelativeDocumentMoniker": "Assesment\\appsettings.json",
-              "ToolTip": "C:\\Users\\Longjie.Luo\\source\\repos\\Run-Max\\Assesment\\Assesment\\appsettings.json",
-              "RelativeToolTip": "Assesment\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Longjie.Luo\\AppData\\Local\\Temp\\2f35584d-7e06-49dc-be8b-3afc7fb19a4d_Assesment1.zip.a4d\\Assesment\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\2f35584d-7e06-49dc-be8b-3afc7fb19a4d_Assesment1.zip.a4d\\Assesment\\Program.cs",
+              "ToolTip": "C:\\Users\\Longjie.Luo\\AppData\\Local\\Temp\\2f35584d-7e06-49dc-be8b-3afc7fb19a4d_Assesment1.zip.a4d\\Assesment\\Program.cs [\u53EA\u8BFB]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\2f35584d-7e06-49dc-be8b-3afc7fb19a4d_Assesment1.zip.a4d\\Assesment\\Program.cs [\u53EA\u8BFB]",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-30T22:29:42.705Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:33:48.88Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
             }
           ]
         }
