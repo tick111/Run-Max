@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Mywork.Pages;
 
-public class IndexModel : PageModel
+public class LeaderboardModel : PageModel
 {
     public void OnGet()
     {

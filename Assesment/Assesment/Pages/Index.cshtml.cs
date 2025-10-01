@@ -1,20 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-namespace Assesment.Pages;
-
-public class IndexModel : PageModel
-{
-    public IActionResult OnGet()
-    {
-        return RedirectToPage("/Leaderboard");
-    }
-}
-=======
-=======
->>>>>>> 865f3ae1f106c8950157245c6dd816e4b8b71140
 using Assesment.Leaderboard;
 
 namespace Assesment.Pages
@@ -65,7 +50,3 @@ namespace Assesment.Pages
         }
     }
 }
-<<<<<<< HEAD
->>>>>>> 865f3ae1f106c8950157245c6dd816e4b8b71140
-=======
->>>>>>> 865f3ae1f106c8950157245c6dd816e4b8b71140

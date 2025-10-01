@@ -33,6 +33,7 @@ C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Deb
 C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Debug\net8.0\Assesment.genruntimeconfig.cache
 C:\Users\Dai.Rhys\bootcamp_test\.NET_project\Run-Max\Assesment\Assesment\obj\Debug\net8.0\ref\Assesment.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment\appsettings.Development.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment\appsettings.json
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\bin\Debug\net8.0\Assesment\Properties\launchSettings.json
@@ -69,6 +70,8 @@ C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\A
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\Assesment.genruntimeconfig.cache
 C:\Users\Longjie.Luo\Source\Repos\Run-Max\Assesment\Assesment\obj\Debug\net8.0\ref\Assesment.dll
 =======
+=======
+>>>>>>> 865f3ae1f106c8950157245c6dd816e4b8b71140
 C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\bin\Debug\net8.0\appsettings.json
 C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\bin\Debug\net8.0\Assesment.staticwebassets.runtime.json
@@ -103,4 +106,7 @@ C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\obj\Debug\net8.0\refint\As
 C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\obj\Debug\net8.0\Assesment.pdb
 C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\obj\Debug\net8.0\Assesment.genruntimeconfig.cache
 C:\Users\Oscar.Zheng\Run-Max-main\Assesment\Assesment\obj\Debug\net8.0\ref\Assesment.dll
+<<<<<<< HEAD
+>>>>>>> 865f3ae1f106c8950157245c6dd816e4b8b71140
+=======
 >>>>>>> 865f3ae1f106c8950157245c6dd816e4b8b71140
