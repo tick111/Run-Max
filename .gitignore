@@ -1,3 +1,10 @@
 .vs/  # 忽略整个.vs目录
 Assesment/
 Composition/
+Assesment/Assesment/obj/
+Assesment/Assesment/bin/
+obj/
+bin/
+*.user
+*.suo
+*.sln.docstates
