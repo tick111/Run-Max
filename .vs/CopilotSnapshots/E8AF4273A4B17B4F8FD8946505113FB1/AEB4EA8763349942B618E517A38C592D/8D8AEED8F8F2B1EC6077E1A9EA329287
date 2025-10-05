@@ -1,0 +1,24 @@
+﻿using LeaderboardService.Services;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// 注册排行榜服务
+builder.Services.AddSingleton<LeaderboardService>();
+// 添加控制器
+builder.Services.AddControllers();
+// 添加Swagger用于API文档
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();

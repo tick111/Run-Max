@@ -1,1 +1,3 @@
-.vs/
+.vs/  # 忽略整个.vs目录
+Assesment/
+Composition/
