@@ -5,6 +5,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<ILeaderboardService, LeaderboardService>();
 builder.Services.AddHealthChecks();
+// 开发时允许来自前端的 CORS 请求 (例如 CRA 在 http://localhost:3000)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "AllowLocalDev",
+        policy =>
+        {
+        policy.WithOrigins("http://localhost:3000", "http://localhost:3001")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
@@ -17,6 +28,11 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+// 在路由之后按需启用 CORS 中间件（仅在开发环境）
+if (app.Environment.IsDevelopment())
+{
+    app.UseCors("AllowLocalDev");
+}
 app.MapRazorPages();
 
 // 健康检查

@@ -1,3 +1,0 @@
-namespace Assesment.Leaderboard;
-
-public sealed record LeaderboardEntry(long CustomerId, decimal Score, int Rank);
