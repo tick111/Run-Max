@@ -35,14 +35,20 @@ app.MapPost("/api/customer/{customerId:long}/score/{delta}",
 });
 
 // 2. 按排名区间（start/end 可选 + 默认）
-app.MapGet("/api/leaderboard",
-    (int? start, int? end, ILeaderboardService svc) =>
+app.MapGet("/api/leaderboard", (int? start, int? end, ILeaderboardService svc) =>
 {
-    int s = start.GetValueOrDefault(1);
-    int e = end.GetValueOrDefault(s + 49); // 默认拉取 50 条
-    if (s < 1 || e < s) return Results.BadRequest("invalid rank range");
-    var list = svc.GetRange(s, e).ToList();
-    return Results.Ok(list);
+    try
+    {
+        int s = start.GetValueOrDefault(1);
+        int e = end.GetValueOrDefault(s + 49);
+        if (s < 1 || e < s) return Results.BadRequest("invalid rank range");
+        var list = svc.GetRange(s, e).ToList();
+        return Results.Ok(list);
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(ex.Message);
+    }
 });
 
 // 3. 指定客户及邻居
