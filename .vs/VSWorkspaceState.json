@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assesment"
+    "\\Mywork",
+    "\\Mywork\\my-app",
+    "\\Mywork\\my-app\\src",
+    "\\Mywork\\Mywork",
+    "\\Mywork\\Mywork\\wwwroot",
+    "\\Mywork\\Mywork\\wwwroot\\js"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Assesment\\Assesment",
   "PreviewInSolutionExplorer": false
 }
