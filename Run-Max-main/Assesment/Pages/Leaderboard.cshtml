@@ -1,0 +1,91 @@
+﻿@page
+@model Assesment.Pages.LeaderboardModel
+@{
+    ViewData["Title"] = "Leaderboard";
+}
+<h2>Leaderboard</h2>
+
+<form method="post" asp-page-handler="Update" class="mb-3">
+    <fieldset>
+        <legend>更新 / 增量修改分数</legend>
+        <label>CustomerId:
+            <input asp-for="UpdateCustomerId" />
+        </label>
+        <label>Delta:
+            <input asp-for="Delta" />
+        </label>
+        <button type="submit" class="btn btn-primary btn-sm">Apply</button>
+        <small>Delta ∈ [-1000,1000]，为增量</small>
+    </fieldset>
+</form>
+
+<form method="post" asp-page-handler="QueryRange" class="mb-3">
+    <fieldset>
+        <legend>按排名区间查看</legend>
+        <label>Start:
+            <input asp-for="Start" />
+        </label>
+        <label>End:
+            <input asp-for="End" />
+        </label>
+        <button type="submit" class="btn btn-secondary btn-sm">Load</button>
+    </fieldset>
+</form>
+
+<table class="table table-striped table-sm">
+    <thead>
+    <tr><th>Rank</th><th>CustomerId</th><th>Score</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var r in Model.Range)
+    {
+        <tr>
+            <td>@r.Rank</td>
+            <td>@r.CustomerId</td>
+            <td>@r.Score</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<form method="post" asp-page-handler="Focus" class="mb-3">
+    <fieldset>
+        <legend>查看用户及邻居</legend>
+        <label>CustomerId:
+            <input asp-for="LookupCustomerId" />
+        </label>
+        <label>High:
+            <input asp-for="High" />
+        </label>
+        <label>Low:
+            <input asp-for="Low" />
+        </label>
+        <button type="submit" class="btn btn-info btn-sm">Show</button>
+    </fieldset>
+</form>
+
+@if (Model.Focus != null)
+{
+    <h4>焦点结果</h4>
+    <table class="table table-bordered table-sm">
+        <thead>
+        <tr><th>Rank</th><th>CustomerId</th><th>Score</th></tr>
+        </thead>
+        <tbody>
+        @foreach (var r in Model.Focus)
+        {
+            var highlight = r.CustomerId == Model.LookupCustomerId ? "table-warning" : "";
+            <tr class="@highlight">
+                <td>@r.Rank</td>
+                <td>@r.CustomerId</td>
+                <td>@r.Score</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+<p>
+    也可以直接调用 API：<code>/leaderboard?start=1&end=10</code>，
+    <code>/customer/123/score/50</code>。
+</p>
