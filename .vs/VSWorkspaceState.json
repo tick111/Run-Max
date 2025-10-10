@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Mywork",
+    "\\Mywork\\my-app",
+    "\\Mywork\\my-app\\src",
+    "\\Mywork\\Mywork",
+    "\\Mywork\\Mywork\\wwwroot",
+    "\\Mywork\\Mywork\\wwwroot\\js"
   ],
+  "SelectedNode": "\\Mywork\\my-app\\src\\HelloWorld.jsx",
   "PreviewInSolutionExplorer": false
 }
