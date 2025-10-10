@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Xuanye.Li\\.nuget\\packages\\": {},
+    "C:\\Users\\Longjie.Luo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xuanye.Li\\Run-Max\\Assesment\\Assesment\\Assesment.csproj",
+      "projectUniqueName": "C:\\Users\\Longjie.Luo\\Source\\Repos\\Run-Max\\Assesment\\Assesment\\Assesment.csproj",
       "projectName": "Assesment",
-      "projectPath": "C:\\Users\\Xuanye.Li\\Run-Max\\Assesment\\Assesment\\Assesment.csproj",
-      "packagesPath": "C:\\Users\\Xuanye.Li\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xuanye.Li\\Run-Max\\Assesment\\Assesment\\obj\\",
+      "projectPath": "C:\\Users\\Longjie.Luo\\Source\\Repos\\Run-Max\\Assesment\\Assesment\\Assesment.csproj",
+      "packagesPath": "C:\\Users\\Longjie.Luo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Longjie.Luo\\Source\\Repos\\Run-Max\\Assesment\\Assesment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Xuanye.Li\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Longjie.Luo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

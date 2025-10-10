@@ -1,8 +1,21 @@
+using Assesment.Models;
+
 public sealed class LeaderboardService : ILeaderboardService
 {
     private readonly ILeaderboardStore _store;
 
     public LeaderboardService(ILeaderboardStore store) => _store = store;
+
+    // 新增：演示用，遍历一个合理范围（如前 100 名）
+    public IEnumerable<LeaderboardEntry> GetAll()
+    {
+        for (int rank = 1; rank <= 100; rank++)
+        {
+            var e = _store.GetByRank(rank);
+            if (e == null) break;
+            yield return e;
+        }
+    }
 
     public decimal UpdateScore(long customerId, decimal delta)
     {

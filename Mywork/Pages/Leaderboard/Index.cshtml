@@ -1,0 +1,52 @@
+@page
+@model LeaderboardModel
+@{
+    ViewData["Title"] = "Leaderboard";
+}
+
+<div class="lb-container">
+    <h1 class="lb-title">Leaderboard</h1>
+
+    <div class="lb-controls">
+        <form id="rangeForm" class="range-form" onsubmit="return false;">
+            <div class="field">
+                <label for="startRank">Start Rank</label>
+                <input type="number" id="startRank" min="1" value="1" />
+            </div>
+            <div class="field">
+                <label for="endRank">End Rank</label>
+                <input type="number" id="endRank" min="1" value="50" />
+            </div>
+            <div class="buttons">
+                <button id="loadBtn" class="btn primary" title="Load range">Load</button>
+                <button id="prevBtn" class="btn" title="Previous block">&laquo; Prev</button>
+                <button id="nextBtn" class="btn" title="Next block">Next &raquo;</button>
+            </div>
+        </form>
+        <div class="status">
+            <span id="statusText"></span>
+        </div>
+    </div>
+
+    <div class="table-wrapper">
+        <table class="lb-table">
+            <thead>
+                <tr>
+                    <th style="width:90px">Rank</th>
+                    <th>Customer Id</th>
+                    <th style="width:160px">Score</th>
+                </tr>
+            </thead>
+            <tbody id="lbBody">
+                <tr class="empty-row"><td colspan="3">No data loaded.</td></tr>
+            </tbody>
+        </table>
+        <div id="loadingOverlay" class="loading hidden">
+            <div class="spinner"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/leaderboard.js" asp-append-version="true"></script>
+}

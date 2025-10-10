@@ -1,0 +1,84 @@
+﻿using Mywork.Services;
+using Microsoft.AspNetCore.Routing;
+using System.Globalization;
+
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddRazorPages();
+builder.Services.AddSingleton<ILeaderboardService, LeaderboardService>();
+
+// 可选：启用 Swagger 方便调试
+// builder.Services.AddEndpointsApiExplorer();
+// builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+
+// 可选 Swagger
+// if (app.Environment.IsDevelopment())
+// {
+//     app.UseSwagger();
+//     app.UseSwaggerUI();
+// }
+
+app.MapRazorPages();
+
+// 1. 更新分数
+app.MapPost("/customer/{customerId:long}/score/{delta:decimal}",
+    (long customerId, decimal delta, ILeaderboardService svc) =>
+    {
+        if (customerId <= 0) return Results.BadRequest("customerId must be > 0");
+        if (delta is < -1000m or > 1000m) return Results.BadRequest("delta must be in [-1000,1000]");
+        return Results.Ok(svc.UpdateScore(customerId, delta));
+    });
+
+// 2. 按排名区间
+app.MapGet("/leaderboard", (int start, int end, ILeaderboardService svc) =>
+{
+    if (start < 1 || end < start) return Results.BadRequest("invalid rank range");
+    return Results.Ok(svc.GetRange(start, end));
+});
+
+// 3. 指定客户及邻居
+app.MapGet("/leaderboard/{customerId:long}",
+    (long customerId, int? high, int? low, ILeaderboardService svc) =>
+    {
+        if (high is < 0 || low is < 0) return Results.BadRequest("high/low must be >=0");
+        var res = svc.GetWithNeighbors(customerId, high ?? 0, low ?? 0);
+        return res is null ? Results.NotFound() : Results.Ok(res);
+    });
+
+// 列出所有已注册路由
+app.MapGet("/debug/endpoints", (IEnumerable<EndpointDataSource> sources) =>
+{
+    return sources
+        .SelectMany(s => s.Endpoints)
+        .OfType<RouteEndpoint>()
+        .Select(e => e.RoutePattern.RawText)
+        .OrderBy(s => s)
+        .ToArray();
+});
+
+// 最简单的测试路由（无参数约束）
+app.MapPost("/ping", () => Results.Ok(new { msg = "pong" }));
+
+// 去掉 decimal 约束的客户路由，临时测试（先保留原来的那条，或先注释原来的再加这一条以免冲突）
+app.MapPost("/customer2/{customerId:long}/score/{delta}",
+    (long customerId, string delta, ILeaderboardService svc) =>
+    {
+        if (!decimal.TryParse(delta, NumberStyles.Number, CultureInfo.InvariantCulture, out var d))
+            return Results.BadRequest("delta invalid");
+        if (d is < -1000m or > 1000m) return Results.BadRequest("delta must be in [-1000,1000]");
+        if (customerId <= 0) return Results.BadRequest("customerId must be > 0");
+        return Results.Ok(svc.UpdateScore(customerId, d));
+    });
+
+app.Run();

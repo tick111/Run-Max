@@ -1,0 +1,29 @@
+@{
+    var title = ViewData["Title"] as string ?? "App";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@title - Leaderboard</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/leaderboard.css" asp-append-version="true" />
+</head>
+<body>
+<header class="site-header">
+    <div class="brand">Run-Max</div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/Leaderboard">Leaderboard</a>
+    </nav>
+</header>
+<main class="main-content">
+    @RenderBody()
+</main>
+<footer class="site-footer">
+    <span>&copy; @(DateTime.UtcNow.Year) Run-Max</span>
+</footer>
+@RenderSection("Scripts", required: false)
+</body>
+</html>
