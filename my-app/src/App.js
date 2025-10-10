@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './helloworld';
-import Leaderboard from './components/Leaderboard';
+import LeaderboardTable from './components/LeaderboardTable';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Hello />
-        <Leaderboard />
+        <LeaderboardTable />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

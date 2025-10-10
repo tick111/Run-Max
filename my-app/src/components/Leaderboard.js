@@ -79,18 +79,11 @@ const Leaderboard = () => {
     );
   }
 
-  return (
-    <div style={{ 
-      padding: '20px',
-      border: '1px solid #ddd',
-      borderRadius: '8px',
-      margin: '20px',
-      backgroundColor: '#f9f9f9'
-    }}>
-      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>🏆 Leaderboard</h2>
-      
-      {/* If the data is HTML, render it directly */}
-      {typeof data === 'string' && data.includes('<') ? (
+  // 渲染排行榜表格
+  const renderLeaderboard = () => {
+    // 如果是HTML，直接渲染
+    if (typeof data === 'string' && data.includes('<')) {
+      return (
         <div 
           dangerouslySetInnerHTML={{ __html: data }}
           style={{ 
@@ -100,23 +93,84 @@ const Leaderboard = () => {
             border: '1px solid #eee'
           }}
         />
-      ) : (
-        /* If it's JSON or plain text, display it formatted */
+      );
+    }
+
+    // 如果是JSON数组，渲染为表格
+    if (Array.isArray(data)) {
+      return (
         <div style={{ 
           backgroundColor: 'white',
           padding: '15px',
           borderRadius: '5px',
-          border: '1px solid #eee'
+          border: '1px solid #eee',
+          overflowX: 'auto'
         }}>
-          <pre style={{ 
-            whiteSpace: 'pre-wrap',
-            fontFamily: 'inherit',
-            margin: 0 
+          <table style={{ 
+            width: '100%', 
+            borderCollapse: 'collapse',
+            fontFamily: 'Arial, sans-serif'
           }}>
-            {typeof data === 'string' ? data : JSON.stringify(data, null, 2)}
-          </pre>
+            <thead>
+              <tr style={{ backgroundColor: '#f8f9fa' }}>
+                <th style={{ border: '1px solid #ddd', padding: '12px', textAlign: 'left' }}>排名</th>
+                <th style={{ border: '1px solid #ddd', padding: '12px', textAlign: 'left' }}>客户ID</th>
+                <th style={{ border: '1px solid #ddd', padding: '12px', textAlign: 'right' }}>分数</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((item, index) => {
+                const rank = index + 1;
+                const rowColor = rank <= 3 ? '#fff3cd' : 'white';
+                return (
+                  <tr key={index} style={{ backgroundColor: rowColor }}>
+                    <td style={{ border: '1px solid #ddd', padding: '8px' }}>
+                      {rank <= 3 ? `🥇🥈🥉`[rank-1] : ''} {rank}
+                    </td>
+                    <td style={{ border: '1px solid #ddd', padding: '8px' }}>
+                      {item.customerId || item.CustomerId || 'N/A'}
+                    </td>
+                    <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'right' }}>
+                      {item.score || item.Score || 0}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
-      )}
+      );
+    }
+
+    // 如果是其他格式，显示原始数据
+    return (
+      <div style={{ 
+        backgroundColor: 'white',
+        padding: '15px',
+        borderRadius: '5px',
+        border: '1px solid #eee'
+      }}>
+        <pre style={{ 
+          whiteSpace: 'pre-wrap',
+          fontFamily: 'inherit',
+          margin: 0 
+        }}>
+          {typeof data === 'string' ? data : JSON.stringify(data, null, 2)}
+        </pre>
+      </div>
+    );
+  };
+
+  return (
+    <div style={{ 
+      padding: '20px',
+      border: '1px solid #ddd',
+      borderRadius: '8px',
+      margin: '20px',
+      backgroundColor: '#f9f9f9'
+    }}>
+      <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>🏆 排行榜</h2>
+      {renderLeaderboard()}
     </div>
   );
 };
