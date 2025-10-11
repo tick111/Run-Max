@@ -1,3 +1,9 @@
 namespace Mywork.Models;
 
-public sealed record LeaderboardEntryDto(long CustomerId, decimal Score, int Rank);
+public class LeaderboardEntryDto
+{
+    public int Rank { get; set; }
+    public long CustomerId { get; set; }
+    public string UserName { get; set; } = "";
+    public decimal Score { get; set; }
+}
